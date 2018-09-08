@@ -1,0 +1,688 @@
+html{
+      height: 100%;
+}
+body {
+      text-align:left;
+      /*font-family: Verdana, Tahoma, Arial;*/
+      margin:0;
+      padding:0;
+      height:100%;
+}
+* {
+      list-style:none; 
+      padding:0px;
+      margin:0px;
+      border: none;
+}
+#all{
+      height:100%;
+      width:100%;
+      margin:auto;
+}
+@media only screen and (min-width: 600px) {
+.desktop-hide{ display: none !important; }
+
+.main {
+  background-image: url("img/Layer 657.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1258px;
+  height: 1420px;
+  justify-content: 10px;
+  margin-top: 8%;
+  margin-left: 2.5%;
+  z-index: 1;
+}
+.pac {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1280px;
+  height: 1443px;
+  z-index: 79;
+  float: left;
+}
+.Vamos{
+  font-size: 24px;
+  font-family: "Omnes";
+  color: rgb(0, 0, 0);
+  line-height: 2.917;
+  text-align: left;
+  position: absolute;
+  left: 50px;
+  top: 121.972px;
+  width: 325px;
+  height: 22px;
+  z-index: 78;
+}
+/*Box_de_Imagem1*/
+.item_copy_5 {
+  background-repeat: round;
+  position: absolute;
+  overflow: auto;
+  left: 0px;
+  top: 0px;
+  width: 1280px;
+  height: 1443px;
+  z-index: 77;
+}
+.Brasil {
+  font-size: 14px;
+  font-family: "Omnes";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  position: absolute;  
+  left: 11.93px;
+  top: 220px;
+  width: 185px;
+  height: 40px;
+  z-index: 76;
+}
+.a_partir_de {
+  font-size: 14px;
+  font-family: "Omnes";
+  color: rgb(255, 255, 255);
+  line-height: 2;
+  text-align: right;
+  position: absolute;
+  left: 293px;
+  top: 209px;
+  z-index: 75;
+  float: left; 
+}
+.span{
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Omnes";
+  line-height: 1;
+  color: rgb(255,255,255);
+  text-align: right;
+  position: absolute;
+}
+.estilo {
+  border-radius: 7px;
+  background-repeat: round;
+  position: absolute;
+  width: 380px;
+  height: 286px;
+  z-index: 1;
+}
+.estilo2 {
+  border-radius: 7px;
+  background-image: -moz-linear-gradient( -90deg, rgba(0,0,0,0) 0%, rgb(0,0,0) 100%);
+  background-image: -webkit-linear-gradient( -90deg, rgba(0,0,0,0) 0%, rgb(0,0,0) 140%);
+  background-image: -ms-linear-gradient( -90deg, rgba(0,0,0,0) 0%, rgb(0,0,0) 100%);
+  position: absolute;
+  z-index: 0;
+  width: 380px;
+  height: 286px;
+}
+#spanposition{
+  top: 234px;
+  left: 291px;
+}
+#letter{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Omnes";
+  line-height: 1.5;
+  color: rgb(255,255,255);
+  text-align: right;
+}
+#Position_2 {
+  left: 50px; 
+  top: 196px;
+}
+#Position_3 {
+  left: 450px;
+  top: 196px;
+}
+#Position_4 {
+  left: 850px;
+  top: 196px;
+}
+#Back_1 {
+  left: 50px;
+  top: 506px;
+}
+#Back_2 {
+  left: 450px;
+  top: 506px;
+}
+#Back_3 {
+  left: 850px;
+  top: 506px;
+}
+
+/*Imagens Desktop*/
+.Layer_952 {
+  background-image: url("img/Layer 952.png");
+  background-repeat: round;
+  border: hidden;
+  position: static;
+  left: -1px;
+  top: 93px;
+  width: 380px;
+  height: 286px;
+  z-index: 74;
+}
+.Layer_953 { 
+  background-image: url("img/Layer 953.png");
+  background-repeat: round;
+  position: static;
+  left: -1px;
+  top: 93px;
+  width: 380px;
+  height: 286px;
+  z-index: 68;
+}
+.Layer_954 {
+  background-image: url("img/Layer 954.png");
+  background-repeat: round;
+  position: static;
+  left: -1px;
+  top: 93px;
+  width: 380px;
+  height: 286px;
+  z-index: 62;
+}
+.Layer_26 {
+  background-image: url("img/Layer 26.png");
+  background-repeat: no-repeat;
+  position: static;
+  left: -190px;
+  top: 398px;
+  width: 380px;
+  height: 286px;
+  z-index: 56;
+}
+.Layer_27 {
+  background-image: url("img/Layer 27.png");
+  background-repeat: no-repeat;
+  position: static;
+  left: 321px;
+  top: 387px;
+  width: 380px;
+  height: 286px;
+  z-index: 50;
+}
+.Layer_28 {
+  background-image: url("img/Layer 28.png");
+  background-repeat: no-repeat;
+  position: static;
+  left: 841px;
+  top: 398px;
+  width: 380px;
+  height: 286px;
+  z-index: 44;
+}
+
+/*Segunda Etapa*/
+
+.pacotes_por_categoria {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1280px;
+  height: 1443px;
+  z-index: 40;
+}
+.VamosM {
+  font-size: 24px;
+  font-family: "Omnes";
+  color: rgb(0, 0, 0);
+  line-height: 2.917;
+  text-align: left;
+  position: absolute;
+  left: 49.937px;
+  top: 810.972px;
+  width: 273px;
+  height: 22px;
+  z-index: 39;
+}
+.pais {
+  font-size: 14px;
+  font-family: "Omnes";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  position: absolute;
+  left: 48.937px;
+  top: 220px;
+  width: 188px;
+  height: 69px;
+  z-index: 40;
+}
+#position1 {
+  left: 50px;
+  top: 870px;
+}
+#position2 {
+  left: 450px;
+  top: 870px;
+}
+#position3 {
+  left: 850px;
+  top: 870px;
+}
+#Back1{
+  left: 50px;
+  top: 1170px;
+}
+#Back2{
+  left: 450px;
+  top: 1170px;
+}
+#Back3{
+  left: 850px;
+  top: 1170px;
+}
+#spanposition1000{
+  top: 239px;
+  left: 289px;
+  font-size: 25px
+}
+#letter2{
+  font-variant-caps: all-small-caps;
+}
+.Layer_947 {
+  background-image: url("img/Layer 947.png");
+  background-repeat: no-repeat;
+  position: static;
+  left: -243px;
+  top: 798px;
+  width: 380px;
+  height: 286px;
+  z-index: 35;
+}
+.Layer_950 {
+  background-image: url("img/Layer 950.png");
+  background-repeat: no-repeat;
+  position: static;
+  left: 378px;
+  top: 797px;
+  width: 380px;
+  height: 286px;
+  z-index: 29;
+}
+.Layer_9477 {
+  background-image: url("img/Layer 9477.png");
+  background-repeat: no-repeat;
+  position: static;
+  left: 816px;
+  top: 799px;
+  width: 380px;
+  height: 286px;
+  z-index: 23;
+}
+.Layer_951 {
+  background-image: url("img/Layer 951.png");
+  background-repeat: no-repeat;
+  position: static;
+  left: 5px;
+  top: 1094px;
+  width: 380px;
+  height: 286px;
+  z-index: 17;
+}
+.Layer_9522 {
+  background-image: url("img/Layer 9522.png");
+  background-repeat: no-repeat;
+  position: static;
+  left: 406px;
+  top: 1103px;
+  width: 380px;
+  height: 286px;
+  z-index: 11;
+}
+.Layer_25 {
+  background-image: url("img/Layer 25.png");
+  background-repeat: no-repeat;
+  position: static;
+  left: 815px;
+  top: 1065px;
+  width: 380px;
+  height: 286px;
+  z-index: 5;
+ }
+}
+
+/*Mobile*/
+@media only screen and (max-width: 400px) {
+.mobile{ display: inline !important; }
+@media only screen and (max-width: 400px) {
+.mobile{ display: inline !important; }
+
+.main {
+  background-image: url("img/Layer 657.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1258px;
+  height: 1420px;
+  justify-content: 10px;
+  margin-top: 8%;
+  margin-left: 2.5%;
+  z-index: 1;
+}
+.pac {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1280px;
+  height: 1443px;
+  z-index: 79;
+  float: left;
+}
+.span{
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Omnes";
+  line-height: 1;
+  color: rgb(255,255,255);
+  text-align: right;
+  position: absolute;
+}
+#position{
+  left: 425px;
+}
+#Position_2 {
+  left: 20px; 
+  top: 70px;
+}
+#Position_3 {
+  left: 20px;
+  top: 370px;
+}
+#Position_4 {
+  left: 20px;
+  top: 670px;
+}
+#Back_1 {
+  left: 425px;
+  top: 70px;
+}
+#Back_2 {
+  left: 425px;
+  top: 370px;
+}
+#Back_3 {
+  left: 425px;
+  top: 670px;
+}
+#spanposition{
+  top: 234px;
+  left: 291px;
+}
+#letter{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Omnes";
+  line-height: 1.5;
+  color: rgb(255,255,255);
+  text-align: right;
+}
+#letter2{
+  font-variant-caps: all-small-caps;
+}
+.item_copy_5 {
+  background-repeat: round;
+  position: absolute;
+  overflow: auto;
+  left: 0px;
+  top: 0px;
+  width: 830px;
+  height: 975px;
+  z-index: 77;
+}
+.Vamos{
+  font-size: 24px;
+  font-family: "Omnes";
+  color: rgb(0, 0, 0);
+  line-height: 2.917;
+  text-align: left;
+  position: absolute;
+  display: flex;
+  left: 50px;
+  width: 325px;
+  height: 22px;
+  z-index: 78;
+}
+.Brasil {
+  font-size: 14px;
+  font-family: "Omnes";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  position: absolute;  
+  left: 11.93px;
+  top: 220px;
+  width: 185px;
+  height: 40px;
+  z-index: 76;
+}
+.a_partir_de {
+  font-size: 14px;
+  font-family: "Omnes";
+  color: rgb(255, 255, 255);
+  line-height: 2;
+  text-align: right;
+  position: absolute;
+  left: 293px;
+  top: 209px;
+  z-index: 75;
+  float: left; 
+}
+.estilo {
+  border-radius: 7px;
+  background-repeat: round;
+  position: absolute;
+  width: 380px;
+  height: 286px;
+  z-index: 1;
+}
+.estilo2 {
+  border-radius: 7px;
+  background-image: -moz-linear-gradient( -90deg, rgba(0,0,0,0) 0%, rgb(0,0,0) 100%);
+  background-image: -webkit-linear-gradient( -90deg, rgba(0,0,0,0) 0%, rgb(0,0,0) 140%);
+  background-image: -ms-linear-gradient( -90deg, rgba(0,0,0,0) 0%, rgb(0,0,0) 100%);
+  position: absolute;
+  z-index: 0;
+  width: 380px;
+  height: 286px;
+}
+
+/*ImagensM 1º Etapa*/
+.Layer_953 { 
+  background-image: url("img/Layer 953.png");
+  background-repeat: round;
+  position: static;
+  left: -1px;
+  top: 93px;
+  width: 380px;
+  height: 286px;
+  z-index: 68;
+}
+.Layer_952 {
+  background-image: url("img/Layer 952.png");
+  background-repeat: round;
+  border: hidden;
+  position: static;
+  left: -1px;
+  top: 93px;
+  width: 380px;
+  height: 286px;
+  z-index: 74;
+}
+.Layer_954 {
+  background-image: url("img/Layer 954.png");
+  background-repeat: round;
+  position: static;
+  left: -1px;
+  top: 93px;
+  width: 380px;
+  height: 286px;
+  z-index: 62;
+}
+.Layer_26 {
+  background-image: url("img/Layer 26.png");
+  background-repeat: no-repeat;
+  position: static;
+  left: -190px;
+  top: 398px;
+  width: 380px;
+  height: 286px;
+  z-index: 56;
+}
+.Layer_27 {
+  background-image: url("img/Layer 27.png");
+  background-repeat: no-repeat;
+  position: static;
+  left: 321px;
+  top: 387px;
+  width: 380px;
+  height: 286px;
+  z-index: 50;
+}
+.Layer_28 {
+  background-image: url("img/Layer 28.png");
+  background-repeat: no-repeat;
+  position: static;
+  left: 841px;
+  top: 398px;
+  width: 380px;
+  height: 286px;
+  z-index: 44;
+}
+/*Segunda Etapa*/
+
+.pacotes_por_categoria {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 830px;
+  height: 975px;
+  z-index: 40;
+}
+.VamosM {
+  font-size: 24px;
+  font-family: "Omnes";
+  color: rgb(0, 0, 0);
+  line-height: 2.917;
+  text-align: left;
+  position: absolute;
+  left: 50px;
+  top: 962px;
+  width: 273px;
+  height: 22px;
+  z-index: 39;
+}
+.pais {
+  font-size: 14px;
+  font-family: "Omnes";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  position: absolute;
+  left: 48.937px;
+  top: 220px;
+  width: 188px;
+  height: 69px;
+  z-index: 40;
+}
+#position1 {
+  left: 20px;
+  top: 1050px;
+}
+#position2 {
+  left: 20px;
+  top: 1350px;
+}
+#position3 {
+  left: 20px;
+  top: 1650px;
+}
+#Back1{
+  left: 425px;
+  top: 1050px;
+}
+#Back2{
+  left: 425px;
+  top: 1350px;
+}
+#Back3{
+  left: 425px;
+  top: 1650px;
+}
+#spanposition1000{
+  top: 239px;
+  left: 289px;
+  font-size: 25px
+}
+
+/*ImagensM 2º Etapa*/
+.Layer_947 {
+  background-image: url("img/Layer 947.png");
+  background-repeat: no-repeat;
+  position: static;
+  left: -243px;
+  top: 798px;
+  width: 380px;
+  height: 286px;
+  z-index: 35;
+}
+.Layer_950 {
+  background-image: url("img/Layer 950.png");
+  background-repeat: no-repeat;
+  position: static;
+  left: 378px;
+  top: 797px;
+  width: 380px;
+  height: 286px;
+  z-index: 29;
+}
+.Layer_9477 {
+  background-image: url("img/Layer 9477.png");
+  background-repeat: no-repeat;
+  position: static;
+  left: 816px;
+  top: 799px;
+  width: 380px;
+  height: 286px;
+  z-index: 23;
+}
+.Layer_951 {
+  background-image: url("img/Layer 951.png");
+  background-repeat: no-repeat;
+  position: static;
+  left: 5px;
+  top: 1094px;
+  width: 380px;
+  height: 286px;
+  z-index: 17;
+}
+.Layer_9522 {
+  background-image: url("img/Layer 9522.png");
+  background-repeat: no-repeat;
+  position: static;
+  left: 406px;
+  top: 1103px;
+  width: 380px;
+  height: 286px;
+  z-index: 11;
+}
+.Layer_25 {
+  background-image: url("img/Layer 25.png");
+  background-repeat: no-repeat;
+  position: static;
+  left: 815px;
+  top: 1065px;
+  width: 380px;
+  height: 286px;
+  z-index: 5;
+   }
+  }
+ }
+}
